@@ -6,7 +6,7 @@ header {
     background-color: #c0bebe;
     padding: 10px;
     text-align: center;
-    width: 45vw;
+    width: 70vw;
     display: inline-block;
     justify-content: center;
     margin-bottom: 20px;
@@ -22,7 +22,7 @@ header h1 {
 a {
     margin-left: 10px;
     color: #333;
-    font-size: 72px;
+    font-size: 36px;
 }
 
 #contactCard {
@@ -42,7 +42,7 @@ section {
     padding: 20px;
     background-color: #c0bebe;
     margin-bottom: 20px;
-    width: 75vw;
+    width: 85vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +51,7 @@ section {
 
 h2 {
     margin-top: 0;
-    font-size: 72px;
+    font-size: 54px;
 }
 
 ul {
@@ -75,6 +75,9 @@ ul {
     font-weight: bold;
     border-radius: 17px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .contactCardButton {
@@ -103,5 +106,5 @@ ul {
 }
 
 .logoImage {
-    height: 66px;
+    height: 75px;
 }
