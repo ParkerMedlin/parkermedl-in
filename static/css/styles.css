@@ -55,6 +55,10 @@ section {
 h2 {
     margin-top: 0;
     font-size: 54px;
+    background-color: #383838;
+    width: 80vw;
+    color: white;
+    text-align: center;
 }
 
 ul {
