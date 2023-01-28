@@ -13,7 +13,7 @@ header {
 }
 
 header h1 {
-    font-size: 54px;
+    font-size: 90px;
     margin: 0;
     background-color: #c0bebe;
     text-align: left;
@@ -22,10 +22,7 @@ header h1 {
 a {
     margin-left: 10px;
     color: #333;
-}
-
-.listLink {
-    text-decoration: none;
+    font-size: 72px;
 }
 
 #contactCard {
@@ -54,7 +51,7 @@ section {
 
 h2 {
     margin-top: 0;
-    font-size: 36px;
+    font-size: 72px;
 }
 
 ul {
@@ -68,10 +65,6 @@ ul {
     flex-direction: column;
 }
 
-section {
-    
-}
-
 .listLink {
     border: white solid 2px;
     flex-grow: 1;
@@ -81,6 +74,7 @@ section {
     margin: 10px;
     font-weight: bold;
     border-radius: 17px;
+    text-decoration: none;
 }
 
 .contactCardButton {
