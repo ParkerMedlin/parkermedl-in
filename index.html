@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>My Linktree Page</title>
-    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
-</head>
-<body style='background-image: url("static/media/bw_trippp.png")'>
-  <div class="container">
-    <header class="mainHeader">
-      <h1 id="typedText"></h1>
-    </header>
-  
-    <section id="contactCard">
-      <a href="static/media/ParkerMedlin.vcf" download>
-        <button class="contactCardButton">Download ParkerMedlin.vcf</button>
-      </a>
-    </section>
-    <section id="about">
-        <h2>My Name is Parker Medlin</h2>
-        <p></p>
-    </section>
-    <section id="social">
-        <div class="headerDiv"><h2>Links</h2></div>
+  <head>
+      <title>My Linktree Page</title>
+      <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+  </head>
+  <body style='background-image: url("static/media/bw_trippp.png")'>
+    <div class="container">
+      <header class="mainHeader">
+        <h1 id="typedText"></h1>
+      </header>
+    
+      <section id="contactCard" class="fadeIn">
+        <!-- <a href="static/media/ParkerMedlin.vcf" id="downloadLink" download>
+          <button class="contactCardButton">Download Contact Info</button>
+        </a> -->
+      </section>
+      <section id="linkSection" class="fadeIn">
+          <div class="headerDiv"><h2>Links</h2></div>
 
-        <ul class="linkList">
-            <li><a href="https://www.linkedin.com/in/parker-medlin/">LinkedIn</a></li>
-            <li><a href="https://github.com/mkgartner">GitHub</a></li>
-            <li><a href="https://instagram.com/parker_meds">Instagram</a></li>
-        </ul>
-    </section>
-    <section id="projects">
-      <div class="headerDiv"><h2>Projects</h2></div>
-        <ul>
-            <li><a href="https://project1.com">Project 1</a></li>
-            <li><a href="https://project2.com">Project 2</a></li>
-            <li><a href="https://project3.com">Project 3</a></li>
-        </ul>
-    </section>
-  </div>
-</body>
-<script src="static/js/typewriter.js"></script>
+          <ul class="linkList">
+            <a class="listLink" href="https://www.linkedin.com/in/parker-medlin/">
+              <img class="logoImage" src="static/media/logos/linkedInLogo.png">
+              <li>LinkedIn</li>
+            </a>
+            <a class="listLink" href="https://github.com/parkermedlin">
+              <img class="logoImage" src="static/media/logos/githubLogo.png">
+              <li>GitHub</li>
+            </a>
+            <a class="listLink" href="https://instagram.com/parker_meds">
+              <img class="logoImage" src="static/media/logos/instagramLogo.png">
+              <li>Instagram</li>
+            </a>
+          </ul>
+      </section>
+      <section id="projectsSection" class="fadeIn">
+        <div class="headerDiv"><h2>Projects</h2></div>
+          <ul>
+              <li><a href="https://parkermedlin.github.io/practice-keyboard/">Musical Note Identification Practice</a></li>
+              <li><a href="https://github.com/ParkerMedlin/kpk-app">Manufacturing Management App</a></li>
+          </ul>
+      </section>
+    </div>
+  </body>
+  <script src="static/js/typewriter.js"></script>
+  <script src="static/js/downloadTing.js"></script>
 </html>

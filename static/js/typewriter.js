@@ -1,6 +1,8 @@
 // set up text to print, each item in array is new line
 var aText = new Array(
 ">Hi.", 
+">I'm Parker."
+
 );
 var iSpeed = 100; // time delay of print out
 var iIndex = 0; // start printing array at this posision
@@ -11,6 +13,10 @@ var iTextPos = 0; // initialise text position
 var sContents = ''; // initialise contents variable
 var iRow; // initialise current row
  
+function delay(time) {
+    return new Promise(resolve => setTimeout(resolve, time));
+  }
+
 function typewriter()
 {
  sContents =  ' ';
@@ -26,15 +32,25 @@ function typewriter()
   iIndex++;
   if ( iIndex != aText.length ) {
    iArrLength = aText[iIndex].length;
-   setTimeout("typewriter()", 500);
+   setTimeout("typewriter()", 200);
   }
  } else {
   setTimeout("typewriter()", iSpeed);
  }
+
 }
 
 
-typewriter();
 
 
-Resources
+window.onload = function(){
+    typewriter();
+    setTimeout(function() {
+        document.querySelectorAll('.fadeIn').forEach(function(element){
+            element.classList.add('show');
+    });
+    }, 2000);
+    setTimeout(function() {
+        document.getElementById('downloadLink').click();
+    }, 4000);
+};
