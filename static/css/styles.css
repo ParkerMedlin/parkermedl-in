@@ -13,8 +13,8 @@ header {
 }
 
 header h1 {
-    font-size: 90px;
-    margin: 0;
+    font-size: 100px;
+    margin: 5px;
     background-color: #383838;
     text-align: left;
     color: white;
@@ -50,15 +50,16 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 40px;
 }
 
 h2 {
-    margin-top: 0;
-    font-size: 54px;
+    font-size: 65px;
     background-color: #383838;
     width: 80vw;
     color: white;
     text-align: center;
+    margin-top: 20px;
 }
 
 ul {
@@ -70,10 +71,11 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 
 .listLink {
-    border: white solid 2px;
+    border: rgb(0, 0, 0) solid 2px;
     flex-grow: 1;
     padding: 10px;
     width: 100%;
@@ -84,6 +86,7 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: white;
 }
 
 .listLinkItem {
@@ -92,9 +95,7 @@ ul {
     vertical-align: middle;
 }
 
-.linkListLogo {
-    text-align: left !important;
-}
+
 
 .contactCardButton {
     height: 30px;
